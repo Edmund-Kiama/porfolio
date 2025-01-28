@@ -38,42 +38,42 @@ function Home() {
         <h2>My Stack</h2>
         <ul className="ul-1">
           <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
             <p>HTML</p>
           </li> 
 
           <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
             <p>CSS</p>
           </li>
 
           <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
             <p>JavaScript</p>
           </li>
 
           <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png?20170919082558" alt="logo" />
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png?20170919082558" alt="logo" />
             <p>Vue js</p>
           </li>  
-          <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
-            <p>React js</p>
-          </li>    
+             
           </ul>
           <ul className="ul-2">
           <li>
-            <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png?20210503135843" alt="logo" />
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
+            <p>React js</p>
+          </li> 
+          <li>
+            <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png?20210503135843" alt="logo" />
             <p>Python</p>
           </li>
-
           <li>
-            <img height="25px" src="https://cdn-icons-png.flaticon.com/128/5968/5968313.png" alt="logo" />
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/5968/5968313.png" alt="logo" />
             <p>mySQL</p>
           </li>
 
           <li>
-            <img height="25px" src="https://cdn-icons-png.flaticon.com/128/15466/15466163.png" alt="logo" />
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/15466/15466163.png" alt="logo" />
             <p>Git</p>
           </li>
         </ul>
@@ -82,6 +82,7 @@ function Home() {
       <div className="ed-cert">
       <div className="education">
         <h2>Education</h2>
+        <div className="sep">
         <div className="Moringa">
           <div className="heading">
             <img height="25px" src="https://moringaschool.com/wp-content/themes/moringa/public/images/logo.png" alt="logo" />
@@ -105,16 +106,17 @@ function Home() {
           <p className="grade"><em>Second Class Upper Division</em></p>
         </div>
       </div>
+      </div>
 
       <div className="certificates">
         <h2>Certificates</h2>
-
+      <div className="sep">
         <div className="harvard">
           <div className="heading">
             <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/600px-Harvard_University_logo.svg.png" alt="logo"/>
             <div>
               <h3>Harvard University</h3>
-              <p className="dates">Issued <strong>Oct 2024</strong></p>
+              <p className="dates">Issued Oct 2024</p>
             </div>
           </div>          
           <p><em>Programming Using Python</em></p>
@@ -125,7 +127,7 @@ function Home() {
             <img height="25px" src="https://www.simplilearn.com/ice9/new_logo.svgz" alt="logo"/>
             <div>
               <h3>Simplilearn</h3>
-              <p className="dates">Issued <strong>Sep 2024</strong></p>
+              <p className="dates">Issued Sep 2024</p>
             </div>
           </div>          
           <p><em>Introduction of Internet of Things(IoT)</em></p>
@@ -136,11 +138,12 @@ function Home() {
             <img height="25px" src="https://www.mathworks.com/etc.clientlibs/mathworks/clientlibs/customer-ui/templates/common/resources/images/mathworks-logo.20250114135845877.svg" alt="logo"/>
             <div>
               <h3>MathWorks</h3>
-              <p className="dates">Issued <strong>Sep 2024</strong></p>
+              <p className="dates">Issued Sep 2024</p>
             </div>
           </div>          
           <p><em>MATLAB Certified</em></p>
         </div>
+      </div>
       </div>
       </div>
 
@@ -148,10 +151,12 @@ function Home() {
         <h2>Experience</h2>
         <div className="freelance">
           <div className="details">
-            <h3>Freelance | Remote</h3>
-            <p>Oct 2024 - Present</p>          
-            <h4><em>Front-end Developer</em></h4>
-            <p>Nairobi County, Kenya</p>
+            <div>
+              <h3>Freelance | Remote</h3>
+              <p>Oct 2024 - Present</p>          
+              <h4><em>Front-end Developer</em></h4>
+              <p>Nairobi County, Kenya</p>
+            </div>
           </div>
 
           <ul className="description">
