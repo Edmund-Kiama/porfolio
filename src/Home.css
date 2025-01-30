@@ -227,55 +227,67 @@ body{
 .experience h2:hover{
     transform: scale(1.05);
 }
-.experience .freelance {
+.experience .freelance,
+.experience .mech {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 0.5em;
     justify-content: space-between;
     padding-top: 0.5em;
     background-color: #3b3b3b;
     border-radius: 8px;
 }
-.experience .freelance .details {
+.experience .freelance .details,
+.experience .mech .details {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-left: 1em;
 }
-.experience .freelance .details h3{
+.experience .freelance .details h3,
+.experience .mech .details h3 {
     font-size: 1.3em;
     transition: 0.2s;
 }
-.experience .freelance .details h3:hover{
+.experience .freelance .details h3:hover,
+.experience .mech .details h3:hover {
     color: white;
     transform: scale(1.05);
 }
-.experience .freelance .details p {
+.experience .freelance .details p,
+.experience .mech .details p {
     font-size: 0.8em;
     margin-bottom: 0.4em;
     color: #cccccc;
 }
-.experience .freelance .details h4 {
+.experience .freelance .details h4,
+.experience .mech .details h4 {
     font-size: 1em;
     font-weight: lighter;
     transition: 0.2s;
 }
-.experience .freelance .details h4:hover {
+.experience .freelance .details h4:hover,
+.experience .mech .details h4:hover {
     color: white;
     transform: scale(1.05);
 }
-.experience .freelance .description {
+.experience .freelance .description ,
+.experience .mech .description {
     border-left: 1px solid #535353;
     list-style: none;
+    width: 26.4em;
 }
-.experience .freelance .description li {
+.experience .freelance .description li,
+.experience .mech .description li  {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     padding: 0.15em;
     transition: 0.2s;
     color: #cccccc;
 }
-.experience .freelance .description li:hover {
+.experience .freelance .description li:hover,
+.experience .mech .description li:hover {
     color: #e0e0e0;
 }
