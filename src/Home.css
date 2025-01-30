@@ -5,18 +5,19 @@
 body{
     background-color: #1f1f1f;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .main-container {
     background-color: #1f1f1f;
     padding: 0.3em;
-    width: 64em;
 }
 .txt {
     padding: 0.3em;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding-bottom: 0.5em;
@@ -46,8 +47,7 @@ body{
 }
 .ed-cert{
     display: flex;
-    align-items: center;
-    height: 25em;
+    flex-wrap: wrap;
     padding-bottom: 0.5em;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -70,6 +70,7 @@ body{
 .dev-stack li {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-left: 1em;
     margin-top: 1em;
     border-right: 1px solid #3b3b3b;
@@ -90,17 +91,16 @@ body{
 .certificates {
     padding: 0.5em;
     margin: 0.5em;
-    height: 23em;
     width: 29.2em;
 }
-.certificates .sep{
+.certificates .sep,
+.education .sep {
     border-left: 1px solid #3b3b3b;
     padding-left:2em ;
 }
 .education h2,
 .certificates h2 {
     margin: 0.5em;
-    text-align: center;
     font-size: 2em;
     transition: 0.2s;
 }
@@ -115,6 +115,7 @@ body{
     margin-bottom: 1em;
     border-left: 2px solid #1f1f1f;
     border-bottom: 2px solid #1f1f1f;
+    width: 27em;
     transition: 0.2s;
 }
 .education .Moringa:hover,
@@ -180,6 +181,7 @@ body{
 .certificates .simplilearn .heading,
 .certificates .math-works .heading {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 0.5em;
 }
@@ -218,7 +220,6 @@ body{
     margin-bottom: 1em;
 }
 .experience h2 {
-    text-align: center;
     margin: 0.5em;
     font-size: 2em;
     transition: 0.2s;
@@ -228,6 +229,7 @@ body{
 }
 .experience .freelance {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5em;
@@ -236,9 +238,10 @@ body{
 }
 .experience .freelance .details {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    padding-left: 1em;
 }
 .experience .freelance .details h3{
     font-size: 1.3em;

@@ -161,8 +161,8 @@ function Home() {
 
           <ul className="description">
             <li>Identify and resolve bugs</li>
-            <li>Design and update existing website elements to ensure a visually appealing and user-friendly interface</li>
-            <li>Optimize website content for improved search engine visibility by implementing relevant SEO meta tags</li>
+            <li>Design and update existing website elements to ensure a visually appealing and <br/>user-friendly interface</li>
+            <li>Optimize website content for improved search engine visibility by implementing <br/>relevant SEO meta tags</li>
             <li>Integrate multiple HTML pages by establishing interlinks for seamless navigation</li>
           </ul>
         </div>
