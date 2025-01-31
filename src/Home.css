@@ -461,3 +461,8 @@ body{
 .projects .back {
     margin-bottom:1em;
 }
+.pa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

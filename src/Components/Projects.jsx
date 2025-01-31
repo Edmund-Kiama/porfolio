@@ -45,7 +45,16 @@ export default function Projects () {
               </div>
               <div className="details">
                 <h4>Mini Tik-Tok clone Single Page Application</h4>
-                <p>Sep 2024</p>
+                <div className="pa">
+                  <p>Sep 2024</p>
+                  <a href="https://github.com/Edmund-Kiama/tiktok-mini-clone" target="_blank">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
               </div>
               <a className="more" id="tiktok-hide" href="https://tiktok-mini-clone.vercel.app/" target="_blank">Trial</a>
               <p className="built-for-desktop">Built for Desktops</p>
@@ -63,7 +72,16 @@ export default function Projects () {
               </div>
               <div className="details">
                 <h4>Shopping List Application</h4>
-                <p>Nov 2024</p>
+                <div className="pa">
+                  <p>Nov 2024</p>
+                  <a href="https://github.com/Edmund-Kiama/shopping-list-app" target="_blank">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
               </div>
               <a className="more" href="https://shopping-list-app-black.vercel.app/" target="_blank">Trial</a>
             </div>
@@ -79,8 +97,17 @@ export default function Projects () {
                 <img  height="25px" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Api_logo.jpg?20111205072542" alt="logo"/>
               </div>
               <div className="details">
-                <h4>Tick and Morty Show Application</h4>
-                <p>Dec 2024</p>
+                <h4>Rick and Morty Show Application</h4>
+                <div className="pa">
+                    <p>Dec 2024</p>
+                    <a href="https://github.com/Edmund-Kiama/rick-and-morty-using-API" target="_blank">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
               </div>
               <a href="https://rick-and-morty-using-api.vercel.app/" target="_blank" className="more">Trial</a>
             </div>
@@ -97,7 +124,16 @@ export default function Projects () {
               </div>
               <div className="details">
                 <h4>E-Commerce Cart for both Developers and Users</h4>
-                <p>Jan 2025</p>
+                <div className="pa">
+                  <p>Jan 2025</p>
+                  <a href="https://github.com/Edmund-Kiama/React-Week1" target="_blank">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
               </div>
               <a href="https://e-commerce-cart-ruby.vercel.app/" target="_blank" className="more">Trial</a>
             </div>
