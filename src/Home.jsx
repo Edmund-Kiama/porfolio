@@ -12,7 +12,7 @@ function Home() {
       <EducationAndCertificates />
       <Experiences />
       <Projects />
-      <div className="pages-to-add">
+      {/* <div className="pages-to-add">
         <h2>Home</h2>
         <div className="about">
           <h2>About</h2>
@@ -21,7 +21,7 @@ function Home() {
         </div>
         <h2>Other Experiences</h2>
         <h2>Error page</h2>
-      </div>
+      </div> */}
     </section>
   )
 }
