@@ -47,7 +47,8 @@ export default function Projects () {
                 <h4>Mini Tik-Tok clone Single Page Application</h4>
                 <p>Sep 2024</p>
               </div>
-              <a className="more" href="https://tiktok-mini-clone.vercel.app/" target="_blank">Trial</a>
+              <a className="more" id="tiktok-hide" href="https://tiktok-mini-clone.vercel.app/" target="_blank">Trial</a>
+              <p className="built-for-desktop">Built for Desktops</p>
             </div>
 
             <div className="shopping">
