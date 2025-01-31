@@ -11,7 +11,7 @@ export default function Projects () {
       { shown ?  <WS4Project setShown={setShown}/>
         :
         <div className="container">
-          
+
               <div className="ws4">
               <div className="img-container">
                 <img 
@@ -34,7 +34,7 @@ export default function Projects () {
 
             <div className="tiktok">
               <div className="img-container">
-                <img src="" alt="project-shot"/>
+                <img src="https://i.pinimg.com/1200x/fe/89/95/fe8995aa577cd3a38bf9f01f474b307f.jpg" alt="project-snapshot"/>
               </div>
               
               <div className="stack-used">
@@ -52,7 +52,7 @@ export default function Projects () {
 
             <div className="shopping">
               <div className="img-container">
-                <img src="" alt="project-shot"/>
+                <img src="https://i.pinimg.com/736x/88/d3/c8/88d3c89d45b4647230d9e05f9a66742a.jpg" alt="project-shot"/>
               </div>
               
               <div className="stack-used">
@@ -66,26 +66,10 @@ export default function Projects () {
               </div>
               <a className="more" href="https://shopping-list-app-black.vercel.app/" target="_blank">Trial</a>
             </div>
-            <div className="xter-mgmt">
-              <div className="img-container">
-                <img src="" alt="project-shot"/>
-              </div>
-              <div className="stack-used">
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/160px-JSON_vector_logo.svg.png?20220501073649" alt="logo"/>
-              </div>
-              <div className="details">
-                <h4>Character Management Application </h4>
-                <p>Nov 2024</p>
-              </div>
-              <a href="https://ben-10-using-json.vercel.app/" target="_blank" className="more">Trial</a>
-            </div>
 
             <div className="tv-show">
               <div className="img-container">
-                <img src="" alt="project-shot"/>
+                <img src="https://i.pinimg.com/736x/9b/3d/3b/9b3d3b44e2b701264d0520f89c46175f.jpg" alt="project-shot"/>
               </div>
               <div className="stack-used">
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
@@ -94,7 +78,7 @@ export default function Projects () {
                 <img  height="25px" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Api_logo.jpg?20111205072542" alt="logo"/>
               </div>
               <div className="details">
-                <h4>Tv Show Application</h4>
+                <h4>Tick and Morty Show Application</h4>
                 <p>Dec 2024</p>
               </div>
               <a href="https://rick-and-morty-using-api.vercel.app/" target="_blank" className="more">Trial</a>
@@ -102,7 +86,7 @@ export default function Projects () {
 
             <div className="cart">
               <div className="img-container">
-                <img src="" alt="project-shot"/>
+                <img src="https://i.pinimg.com/736x/e8/c5/ed/e8c5edf478c2c0a991c1be5dd2274505.jpg" alt="project-shot"/>
               </div>
               <div className="stack-used">
                   <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />

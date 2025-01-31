@@ -345,7 +345,6 @@ body{
     flex-wrap: wrap;
     align-items: center;
     margin: 0.5em;
-    justify-content: space-between;
     padding: 0.5em;
     background-color: #3b3b3b;
     border:1px solid #535353;
@@ -363,17 +362,15 @@ body{
 }
 .projects .img-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     border-radius: 3px;
-    width: 98%;
-    height: 15em;
+    width: 100%;
 }
 .projects .img-container img {
     object-fit: cover;
     margin-left: 1em;
-    height: 15em;
-    width: 100%;
+    width: 20em;
 }
 .projects .details {
     margin-top: 0.5em;
