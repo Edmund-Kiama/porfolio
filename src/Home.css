@@ -10,8 +10,13 @@ body{
     justify-content: center;
 }
 .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #1f1f1f;
     padding: 0.3em;
+    width: 90vw;
 }
 .txt {
     padding: 0.3em;
@@ -33,6 +38,10 @@ body{
     font-size: xx-large;
     margin: 0.3em;
     color: white;
+    transition: 0.3s;
+}
+.txt h1:hover {
+    transform: scale(1.05);
 }
 .txt .profile {
     border-radius: 100px;
@@ -45,27 +54,41 @@ body{
     margin: 0.3em;
     cursor: pointer;
 }
+.txt .profile {
+    border: 1px solid #1f1f1f;
+    transition: 0.3s;
+}
+.txt .profile:hover {
+    border: 1px solid white;
+}
 .ed-cert{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0.5em;
     margin-top: 2em;
     margin-bottom: 2em;
+    width: min(65em,95%);
+}
+.dev-stack {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+    width: min(65em,95%);
 }
 .dev-stack h2 {
     margin: 0.5em;
     color: white;
     font-size: 2em;
+    transition: 0.3s;
 }
-.dev-stack {
-    padding-bottom: 1em;
-    margin-bottom: 0.5em;
+.dev-stack h2:hover {
+    transform: scale(1.03);
 }
 .dev-stack ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 .dev-stack li {
     display: flex;
@@ -78,7 +101,7 @@ body{
     color:#cccccc;
     background-color: #3b3b3b;
     border-radius: 5px;
-    width: 11em;
+    width: 10em;
     transition: 0.2s;
 }
 .dev-stack li:hover {
@@ -91,7 +114,7 @@ body{
 .certificates {
     padding: 0.5em;
     margin: 0.5em;
-    width: 29.2em;
+    
 }
 .certificates .sep,
 .education .sep {
@@ -102,11 +125,11 @@ body{
 .certificates h2 {
     margin: 0.5em;
     font-size: 2em;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .education h2:hover,
 .certificates h2:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .education .Moringa,
 .education .TUK {
@@ -115,7 +138,6 @@ body{
     margin-bottom: 1em;
     border-left: 2px solid #1f1f1f;
     border-bottom: 2px solid #1f1f1f;
-    width: 27em;
     transition: 0.2s;
 }
 .education .Moringa:hover,
@@ -137,10 +159,6 @@ body{
     margin-right: 0.5em;
     border-radius: 2px;
     height: 2.5em;
-}
-.education .Moringa h3 ,
-.education .TUK h3{
-    font-size: larger;
 }
 .education .Moringa .dates ,
 .education .TUK .dates,
@@ -215,24 +233,24 @@ body{
 .experience{
     border-radius: 8px;
     padding: 0.5em;
-    width: 87%;
     margin-top: 1em;
     margin-bottom: 1em;
+    width: min(60em,95%);
 }
 .experience h2 {
     margin: 0.5em;
     font-size: 2em;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .experience h2:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .experience .freelance,
 .experience .mech {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0.5em;
+    margin-bottom: 1em;
     justify-content: space-between;
     padding-top: 0.5em;
     background-color: #3b3b3b;
@@ -241,20 +259,23 @@ body{
 .experience .freelance .details,
 .experience .mech .details {
     display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-left: 1em;
+    padding-right: 1em;
 }
 .experience .freelance .details h3,
 .experience .mech .details h3 {
     font-size: 1.3em;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .experience .freelance .details h3:hover,
 .experience .mech .details h3:hover {
     color: white;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .experience .freelance .details p,
 .experience .mech .details p {
@@ -266,18 +287,18 @@ body{
 .experience .mech .details h4 {
     font-size: 1em;
     font-weight: lighter;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .experience .freelance .details h4:hover,
 .experience .mech .details h4:hover {
     color: white;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .experience .freelance .description ,
 .experience .mech .description {
     border-left: 1px solid #535353;
     list-style: none;
-    width: 26.4em;
+    width: 30em;
 }
 .experience .freelance .description li,
 .experience .mech .description li  {
@@ -290,4 +311,93 @@ body{
 .experience .freelance .description li:hover,
 .experience .mech .description li:hover {
     color: #e0e0e0;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: min(66em,95%);
+}
+.projects h2 {
+    margin: 0.5em;
+    font-size: 2em;
+    transition: 0.3s;
+}
+.projects h2:hover{
+    transform: scale(1.03);
+}
+.projects .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.projects .container .ws4,
+.projects .container .shopping,
+.projects .container .cart,
+.projects .container .xter-mgmt,
+.projects .container .tv-show,
+.projects .container .tiktok {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1em;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    width: 30em;
+} 
+.projects .img-container {
+    display: flex;
+    border-radius: 3px;
+    width: 98%;
+    height: 15em;
+}
+.projects .img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.projects .details {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+}
+.projects .details h4 {
+    font-size: larger;
+    transition: 0.3s;
+}
+.projects .details h4:hover {
+    transform: scale(1.03);
+}
+.projects .details p {
+    font-size: small;
+    color: #cccccc;
+    font-style: italic;
+}
+.projects .stack-used {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.projects .stack-used img{
+    margin: 0.25em;
+}
+.projects .more {
+    background-color: transparent;
+    border: 1px solid #777777;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.projects .more:hover {
+    background-color: #cccccc;
+    color: #1f1f1f;
 }
