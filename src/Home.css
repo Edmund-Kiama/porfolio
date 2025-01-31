@@ -102,10 +102,12 @@ body{
     background-color: #3b3b3b;
     border-radius: 5px;
     width: 10em;
+    border:1px solid #1f1f1f;
     transition: 0.2s;
 }
 .dev-stack li:hover {
     background-color: #444444;
+    border:1px solid #535353;
 }
 .dev-stack li img {
     margin-right: 0.5em;
@@ -255,6 +257,7 @@ body{
     padding-top: 0.5em;
     background-color: #3b3b3b;
     border-radius: 8px;
+    border:1px solid #535353;
 }
 .experience .freelance .details,
 .experience .mech .details {
@@ -341,22 +344,35 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1em;
+    margin: 0.5em;
     justify-content: space-between;
     padding: 0.5em;
     background-color: #3b3b3b;
+    border:1px solid #535353;
     border-radius: 8px;
+    transition: 0.2s ease-out;
     width: 30em;
 } 
+.projects .container .ws4:hover,
+.projects .container .shopping:hover,
+.projects .container .cart:hover,
+.projects .container .xter-mgmt:hover,
+.projects .container .tv-show:hover,
+.projects .container .tiktok:hover {
+    transform: scale(1.01);
+}
 .projects .img-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 3px;
     width: 98%;
     height: 15em;
 }
 .projects .img-container img {
     object-fit: cover;
-    height: 100%;
+    margin-left: 1em;
+    height: 15em;
     width: 100%;
 }
 .projects .details {
@@ -367,10 +383,6 @@ body{
 }
 .projects .details h4 {
     font-size: larger;
-    transition: 0.3s;
-}
-.projects .details h4:hover {
-    transform: scale(1.03);
 }
 .projects .details p {
     font-size: small;
@@ -386,7 +398,8 @@ body{
 .projects .stack-used img{
     margin: 0.25em;
 }
-.projects .more {
+.projects .more ,
+.projects .back {
     background-color: transparent;
     border: 1px solid #777777;
     padding-left: 0.5em;
@@ -395,9 +408,49 @@ body{
     padding-bottom: 0.2em;
     border-radius: 3px;
     transition: 0.3s;
+    text-decoration: none;
     cursor: pointer;
 }
-.projects .more:hover {
+.projects .more:hover,
+.projects .back:hover {
     background-color: #cccccc;
     color: #1f1f1f;
+}
+
+.projects .WS4Project {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5em;
+    background-color: #3b3b3b;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.projects img {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-right: 1em;
+    border-radius: 3px;
+}
+.projects .WS4Project .img-contain {
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.projects .WS4Project ul {
+    list-style: none;
+}
+.projects .WS4Project ul li {
+    color: #cccccc;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    transition: 0.3s;
+}
+.projects .WS4Project ul li:hover {
+    color: white;
+}
+.projects .back {
+    margin-bottom:1em;
 }
