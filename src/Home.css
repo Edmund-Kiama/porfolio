@@ -3,7 +3,7 @@
     margin: 0;
 }
 @media (max-width:768px) {
-    #tiktok-hide {
+    #tiktok-hide, #shopping-hide, #ricknmorty-hide, #cart-hide {
         display: none;
     }
 }

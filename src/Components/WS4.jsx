@@ -6,7 +6,7 @@ export default function WS4Project ({setShown}) {
                 <p>Grade A | Oct 2023 – March 2024</p>
             </div>
             <div className="img-contain">
-                <img height="200px" alt="design" src="https://media.licdn.com/dms/image/v2/D562DAQGjAjAgPNR6Ow/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736341230338?e=1738926000&v=beta&t=OIAbNycwD2cyJ_WilLw5GvQpNOYlyeSUEYYFWqURv8A"/>
+                <img height="135px" alt="design" src="https://media.licdn.com/dms/image/v2/D562DAQGjAjAgPNR6Ow/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736341230338?e=1738926000&v=beta&t=OIAbNycwD2cyJ_WilLw5GvQpNOYlyeSUEYYFWqURv8A"/>
                 <img alt="render" height="200px"  src="https://media.licdn.com/dms/image/v2/D562DAQFRxYl3V37CSQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736341258826?e=1738926000&v=beta&t=t1ZxSwxqynqNUbnLAuWKO46xLuLxh2mpN8wFlWQafI4"/>
                 <img alt="model" height="200px"  src="https://media.licdn.com/dms/image/v2/D562DAQHBeKoCK6MHCw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736341277020?e=1738926000&v=beta&t=3eDZV2l3s5goZJfBgawqN2ux-tTlX4Fp_1SMTO24Emw" />
             </div>

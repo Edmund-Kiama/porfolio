@@ -57,7 +57,7 @@ export default function Projects () {
                 </div>
               </div>
               <a className="more" id="tiktok-hide" href="https://tiktok-mini-clone.vercel.app/" target="_blank">Trial</a>
-              <p className="built-for-desktop">Built for Desktops</p>
+              <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 
             <div className="shopping">
@@ -83,7 +83,8 @@ export default function Projects () {
                   </a>
                 </div>
               </div>
-              <a className="more" href="https://shopping-list-app-black.vercel.app/" target="_blank">Trial</a>
+              <a className="more" id="shopping-hide" href="https://shopping-list-app-black.vercel.app/" target="_blank">Trial</a>
+              <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 
             <div className="tv-show">
@@ -109,7 +110,8 @@ export default function Projects () {
                   </a>
                 </div>
               </div>
-              <a href="https://rick-and-morty-using-api.vercel.app/" target="_blank" className="more">Trial</a>
+              <a href="https://rick-and-morty-using-api.vercel.app/" id="ricknmorty-hide" target="_blank" className="more">Trial</a>
+              <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 
             <div className="cart">
@@ -135,7 +137,8 @@ export default function Projects () {
                   </a>
                 </div>
               </div>
-              <a href="https://e-commerce-cart-ruby.vercel.app/" target="_blank" className="more">Trial</a>
+              <a href="https://e-commerce-cart-ruby.vercel.app/" target="_blank" id="cart-hide" className="more">Trial</a>
+              <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
         </div>
       }
