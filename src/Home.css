@@ -3,7 +3,7 @@
     margin: 0;
 }
 @media (max-width:768px) {
-    #tiktok-hide, #shopping-hide, #ricknmorty-hide, #cart-hide {
+    #tiktok-hide, #shopping-hide, #ricknmorty-hide, #cart-hide, #job-finder-hide {
         display: none;
     }
 }
@@ -349,7 +349,8 @@ body{
 .projects .container .cart,
 .projects .container .xter-mgmt,
 .projects .container .tv-show,
-.projects .container .tiktok {
+.projects .container .tiktok ,
+.projects .container .jobFinder{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -367,7 +368,8 @@ body{
 .projects .container .cart:hover,
 .projects .container .xter-mgmt:hover,
 .projects .container .tv-show:hover,
-.projects .container .tiktok:hover {
+.projects .container .tiktok:hover,
+.projects .container .jobFinder:hover {
     transform: scale(1.01);
 }
 .projects .img-container {

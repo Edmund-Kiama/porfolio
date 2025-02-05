@@ -140,6 +140,35 @@ export default function Projects () {
               <a href="https://e-commerce-cart-ruby.vercel.app/" target="_blank" id="cart-hide" className="more">Trial</a>
               <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
+
+            <div className="jobFinder">
+              <div className="img-container">
+                <img src="https://i.pinimg.com/736x/b0/27/29/b02729210392140c0fd28eab51055d86.jpg" alt="project-shot"/>
+              </div>
+              <div className="stack-used">
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
+                  <p>REST APIs</p>
+              </div>
+              <div className="details">
+                <h4>Job Finder App</h4>
+                <div className="pa">
+                  <p>Feb 2025</p>
+                  <a href="https://github.com/Michael3-j/JobFinder" target="_blank">
+                      <img 
+                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
+              </div>
+              <a href="https://job-finder-ia23.vercel.app/" target="_blank" id="job-finder-hide" className="more">Trial</a>
+              <p className="built-for-desktop">Please use Desktop for Trial</p>
+            </div>
+
         </div>
       }
       </div>
