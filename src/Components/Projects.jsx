@@ -15,7 +15,7 @@ export default function Projects () {
               <div className="ws4">
               <div className="img-container">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D562DAQFRxYl3V37CSQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1736341258826?e=1738915200&v=beta&t=C6HBULQ85ca7JVc9f-hXCcFC985QdhKpA2Bod7JV10w" 
+                  src="https://i.pinimg.com/736x/0a/19/25/0a19253de15876e29be268854eb9650f.jpg" 
                   alt="4ws-render"  
                   className="render"
                 />
