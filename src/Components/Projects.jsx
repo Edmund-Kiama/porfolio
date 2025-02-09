@@ -49,7 +49,7 @@ export default function Projects () {
                   <p>Sep 2024</p>
                   <a href="https://github.com/Edmund-Kiama/tiktok-mini-clone" target="_blank">
                       <img 
-                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"
                       width="20px"
                       />
@@ -76,7 +76,7 @@ export default function Projects () {
                   <p>Nov 2024</p>
                   <a href="https://github.com/Edmund-Kiama/shopping-list-app" target="_blank">
                       <img 
-                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"
                       width="20px"
                       />
@@ -103,7 +103,7 @@ export default function Projects () {
                     <p>Dec 2024</p>
                     <a href="https://github.com/Edmund-Kiama/rick-and-morty-using-API" target="_blank">
                       <img 
-                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"
                       width="20px"
                       />
@@ -130,7 +130,7 @@ export default function Projects () {
                   <p>Jan 2025</p>
                   <a href="https://github.com/Edmund-Kiama/React-Week1" target="_blank">
                       <img 
-                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"
                       width="20px"
                       />
@@ -158,7 +158,7 @@ export default function Projects () {
                   <p>Feb 2025</p>
                   <a href="https://github.com/Michael3-j/JobFinder" target="_blank">
                       <img 
-                      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"
                       width="20px"
                       />

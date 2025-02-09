@@ -30,7 +30,7 @@ export default function Profile () {
                 </a>
                 <a href="https://github.com/Edmund-Kiama" target="_blank">
                     <img 
-                    src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                    src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                     alt="GitHub"
                     width="20px"
                     />

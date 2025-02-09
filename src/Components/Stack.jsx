@@ -52,6 +52,10 @@ export default function Stack () {
             <img height="20px" src="https://ultimaker.com/wp-content/themes/ultimaker/media/UltiMaker_Logo.svg" alt="logo"/>
             <p>Ultimaker Cura</p>
           </li>
+          <li>
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/15466/15466088.png" alt="logo" />
+            <p>Docker</p>
+          </li>
         </ul>
       </div>
 
