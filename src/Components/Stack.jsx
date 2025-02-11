@@ -44,6 +44,18 @@ export default function Stack () {
             <p>Git</p>
           </li>
           <li>
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/5968/5968853.png" alt="logo" />
+            <p>GitLab</p>
+          </li>
+          <li>
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png" alt="logo" />
+            <p>GitHub</p>
+          </li>
+          <li>
+            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/518/518713.png" alt="logo" />
+            <p>Linux</p>
+          </li>
+          <li>
             <img height="20px" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/SolidWorks_Logo.svg/150px-SolidWorks_Logo.svg.png?20130509090050" alt="logo"/>
             <p>SolidWorks</p>
           </li>
