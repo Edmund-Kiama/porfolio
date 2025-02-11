@@ -95,7 +95,7 @@ export default function Projects () {
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
-                <img  height="25px" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Api_logo.jpg?20111205072542" alt="logo"/>
+                <p>API</p>
               </div>
               <div className="details">
                 <h4>Rick and Morty Show Application</h4>
@@ -150,7 +150,7 @@ export default function Projects () {
                   <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
                   <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
                   <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
-                  <p>REST APIs</p>
+                  <p>API</p>
               </div>
               <div className="details">
                 <h4>Job Finder App</h4>
