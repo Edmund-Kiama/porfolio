@@ -60,33 +60,6 @@ export default function Projects () {
               <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 
-            <div className="shopping">
-              <div className="img-container">
-                <img src="https://i.pinimg.com/736x/88/d3/c8/88d3c89d45b4647230d9e05f9a66742a.jpg" alt="project-shot"/>
-              </div>
-              
-              <div className="stack-used">
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
-                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
-              </div>
-              <div className="details">
-                <h4>Shopping List Application</h4>
-                <div className="pa">
-                  <p>Nov 2024</p>
-                  <a href="https://github.com/Edmund-Kiama/shopping-list-app" target="_blank">
-                      <img 
-                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
-                      alt="GitHub"
-                      width="20px"
-                      />
-                  </a>
-                </div>
-              </div>
-              <a className="more" id="shopping-hide" href="https://shopping-list-app-black.vercel.app/" target="_blank">Trial</a>
-              <p className="built-for-desktop">Please use Desktop for Trial</p>
-            </div>
-
             <div className="tv-show">
               <div className="img-container">
                 <img src="https://i.pinimg.com/736x/9b/3d/3b/9b3d3b44e2b701264d0520f89c46175f.jpg" alt="project-shot"/>
@@ -111,33 +84,6 @@ export default function Projects () {
                 </div>
               </div>
               <a href="https://rick-and-morty-using-api.vercel.app/" id="ricknmorty-hide" target="_blank" className="more">Trial</a>
-              <p className="built-for-desktop">Please use Desktop for Trial</p>
-            </div>
-
-            <div className="cart">
-              <div className="img-container">
-                <img src="https://i.pinimg.com/736x/e8/c5/ed/e8c5edf478c2c0a991c1be5dd2274505.jpg" alt="project-shot"/>
-              </div>
-              <div className="stack-used">
-                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
-                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
-                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
-                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
-              </div>
-              <div className="details">
-                <h4>E-Commerce Cart for both Developers and Users</h4>
-                <div className="pa">
-                  <p>Jan 2025</p>
-                  <a href="https://github.com/Edmund-Kiama/React-Week1" target="_blank">
-                      <img 
-                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
-                      alt="GitHub"
-                      width="20px"
-                      />
-                  </a>
-                </div>
-              </div>
-              <a href="https://e-commerce-cart-ruby.vercel.app/" target="_blank" id="cart-hide" className="more">Trial</a>
               <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 

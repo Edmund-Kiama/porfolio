@@ -7,7 +7,7 @@ export default function Profile () {
                 <p className="location">Nairobi, Kenya</p>
                 <p><small>Turning ideas to engineered reality</small></p>
                 <div className="contacts">
-                    <a href="./cv.pdf" download="Edmund-CV.pdf">
+                    <a href="edkiamaCV.pdf" download="edkiamaCV.pdf">
                     <img 
                     src="https://cdn-icons-png.flaticon.com/128/909/909212.png"
                     alt="my-Cv"
