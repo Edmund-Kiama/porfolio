@@ -350,7 +350,8 @@ body{
 .projects .container .xter-mgmt,
 .projects .container .tv-show,
 .projects .container .tiktok ,
-.projects .container .jobFinder{
+.projects .container .jobFinder,
+.projects .container .satSim{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

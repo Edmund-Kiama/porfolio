@@ -115,6 +115,30 @@ export default function Projects () {
               <p className="built-for-desktop">Please use Desktop for Trial</p>
             </div>
 
+            <div className="satSim">
+              <div className="img-container">
+                <img src="https://i.pinimg.com/736x/e8/2d/84/e82d848d359a4ddefb0c2cb52c687809.jpg" alt="project-shot"/>
+              </div>
+              <div className="stack-used">
+                  <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png?20210503135843" alt="logo" />
+                  <p>Pygame</p>
+              </div>
+              <div className="details">
+                <h4>Satellite Simulation</h4>
+                <div className="pa">
+                  <p>Feb 2025</p>
+                  <a href="https://github.com/Edmund-Kiama/Satellite_Sim" target="_blank">
+                      <img 
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
+              </div>
+              <p className="more">Built for Terminal</p>
+            </div>
+
         </div>
       }
       </div>
