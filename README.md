@@ -1,8 +1,88 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based portfolio website showcasing personal information, skills, education, experience, and projects.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[my Website URL](https://porfolio-nine-teal.vercel.app/)
+
+## Features
+
+- Personal Profile with Contact Information
+- Tech Stack Overview
+- Education & Certifications
+- Work Experience
+- Projects with Live Previews and GitHub Links
+
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Edmund-Kiama/portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Project Structure
+
+```
+portfolio/
+│-- src/
+│   ├── Components/
+│   │   ├── Profile.js
+│   │   ├── Stack.js
+│   │   ├── Education.js
+│   │   ├── Experience.js
+│   │   ├── Projects.js
+│   ├── App.js
+│   ├── index.js
+│-- public/
+│-- package.json
+│-- README.md
+```
+
+## Projects
+
+### 1. **4-Wheel Steering System**
+- **Tech Used:** SolidWorks, Blender, Ultimaker
+- **Grade:** A | Oct 2023 – March 2024
+
+### 2. **Mini TikTok Clone**
+- **Tech Used:** HTML, CSS, JavaScript, Vue.js
+- **Live Demo:** [Trial](https://tiktok-mini-clone.vercel.app/)
+- **GitHub:** [Repo](https://github.com/Edmund-Kiama/tiktok-mini-clone)
+
+### 3. **Rick and Morty Show Application**
+- **Tech Used:** HTML, CSS, JavaScript, API
+- **Live Demo:** [Trial](https://rick-and-morty-using-api.vercel.app/)
+- **GitHub:** [Repo](https://github.com/Edmund-Kiama/rick-and-morty-using-API)
+
+### 4. **Job Finder App**
+- **Tech Used:** HTML, CSS, JavaScript, React, API
+- **Live Demo:** [Trial](https://job-finder-ia23.vercel.app/)
+- **GitHub:** [Repo](https://github.com/Michael3-j/JobFinder)
+
+### 5. **Satellite Simulation**
+- **Tech Used:** Python, Pygame
+- **GitHub:** [Repo](https://github.com/Edmund-Kiama/Satellite_Sim)
+
+## Contact
+
+- **Name:** Edmund Kiama
+- **Location:** Nairobi, Kenya
+- **LinkedIn:** [Profile](https://linkedin.com/in/edmund-kiama-2269a4325)
+- **GitHub:** [Profile](https://github.com/Edmund-Kiama)
+- **Email:** [Send Email](mailto:edmundgachanja@gmail.com)
+
+---
