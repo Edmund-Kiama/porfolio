@@ -1,6 +1,6 @@
 export default function Profile () {
     return (
-        <div className="txt">
+        <div className="txt" id="profile">
                 <img width="120px" className="profile" src="https://avatars.githubusercontent.com/u/181697398?v=4"/>
                 <h1 className="name">EDMUND KIAMA</h1>
                 <p>Mechanical | Software Engineer</p>

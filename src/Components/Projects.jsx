@@ -117,7 +117,7 @@ export default function Projects () {
 
             <div className="satSim">
               <div className="img-container">
-                <img src="https://i.pinimg.com/736x/e8/2d/84/e82d848d359a4ddefb0c2cb52c687809.jpg" alt="project-shot"/>
+                <img src="https://i.pinimg.com/736x/0e/3a/49/0e3a49bc27e07e8667d7c0f32eb486a7.jpg" alt="project-shot"/>
               </div>
               <div className="stack-used">
                   <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png?20210503135843" alt="logo" />
@@ -136,7 +136,34 @@ export default function Projects () {
                   </a>
                 </div>
               </div>
-              <p className="more">Built for Terminal</p>
+              <p>Built for Terminal</p>
+            </div>
+
+            <div className="portfolio">
+              <div className="img-container">
+                <img src="https://i.pinimg.com/736x/86/67/69/8667690528d2a3e3f19f8f6cec96830e.jpg" alt="portfolio-shot"/>
+              </div>
+              <div className="stack-used">
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
+                  <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207" alt="logo" />
+                  <img height="25px" src="https://cdn-icons-png.flaticon.com/128/15466/15466088.png" alt="logo" />
+              </div>
+              <div className="details">
+                <h4>My Portfolio</h4>
+                <div className="pa">
+                  <p>Feb 2025</p>
+                  <a href="https://github.com/Edmund-Kiama/porfolio" target="_blank">
+                      <img 
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
+              </div>
+              <a href="#profile" className="more">Trial</a>
             </div>
 
         </div>

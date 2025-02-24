@@ -77,6 +77,10 @@ portfolio/
 - **Tech Used:** Python, Pygame
 - **GitHub:** [Repo](https://github.com/Edmund-Kiama/Satellite_Sim)
 
+### 6. **Portfolio Website**
+- **Tech Used:** HTML, CSS, Javascript, React, Docker
+- **GitHub:** [Repo](https://github.com/Edmund-Kiama/porfolio)
+
 ## Contact
 
 - **Name:** Edmund Kiama

@@ -12,6 +12,9 @@
         display: none;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #1f1f1f;
     display: flex;
@@ -351,6 +354,7 @@ body{
 .projects .container .tv-show,
 .projects .container .tiktok ,
 .projects .container .jobFinder,
+.projects .container .portfolio,
 .projects .container .satSim{
     display: flex;
     flex-direction: column;
@@ -370,6 +374,8 @@ body{
 .projects .container .xter-mgmt:hover,
 .projects .container .tv-show:hover,
 .projects .container .tiktok:hover,
+.projects .container .satSim:hover,
+.projects .container .portfolio:hover,
 .projects .container .jobFinder:hover {
     transform: scale(1.01);
 }
