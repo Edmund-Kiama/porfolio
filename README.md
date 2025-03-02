@@ -34,18 +34,30 @@ This is a React-based portfolio website showcasing personal information, skills,
    npm run dev
    ```
 
-## Docker Setup
+## Docker Setup (Two Ways)
+**1. Building your own image**   
 First ensure that you have Docker installed. 
 To run the application using Docker:
-1. Build the Docker Image:
+- Build the Docker Image:
    ```ssh
    docker build -t edmund-portfolio .
    ```
-2. Run the container
+- Run the container
    ```ssh
    docker run -p 8080:5173 edmund-portfolio
    ```
-3. Open browser at **`localhost:8080`**
+- Open browser at **`localhost:8080`**
+
+**2. Pulling Image** 
+- Pull the image
+  ```ssh
+   docker pull edmundkiama/myportfolio
+  ```
+- Run the image
+   ```ssh
+   docker run -p 8080:5173 edmundkiama/myportfolio
+   ```
+- Open browser at **`localhost:8080`**
 
 ## Project Structure
 
