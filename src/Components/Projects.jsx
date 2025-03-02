@@ -42,6 +42,7 @@ export default function Projects () {
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png?20170919082558" alt="logo" />
+                <img height="30px" src="https://cdn-icons-png.flaticon.com/128/15466/15466088.png" alt="logo" />
               </div>
               <div className="details">
                 <h4>Mini Tik-Tok clone Single Page Application</h4>
