@@ -68,6 +68,7 @@ export default function Projects () {
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
                 <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
+                <img height="25px" src="https://cdn-icons-png.flaticon.com/128/15466/15466088.png" alt="logo" />
                 <p>API</p>
               </div>
               <div className="details">
