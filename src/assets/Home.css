@@ -392,6 +392,9 @@ body{
     width: 20em;
 }
 .projects .details {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 0.2em;
@@ -399,11 +402,17 @@ body{
 }
 .projects .details h4 {
     font-size: larger;
+    text-align: center;
 }
 .projects .details p {
     font-size: small;
     color: #cccccc;
     font-style: italic;
+}
+.projects .pa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .projects .stack-used {
     display: flex;
@@ -470,8 +479,4 @@ body{
 .projects .back {
     margin-bottom:1em;
 }
-.pa {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
