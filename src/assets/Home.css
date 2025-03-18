@@ -125,6 +125,12 @@ body{
 .dev-stack li img {
     margin-right: 0.5em;
 }
+.flask {
+    background-color:#b1b1b1;
+    padding: 1px;
+    border-radius: 0.2em;
+    margin-right: 0.3em;
+}
 .education,
 .certificates {
     padding: 0.5em;
@@ -355,7 +361,8 @@ body{
 .projects .container .tiktok ,
 .projects .container .jobFinder,
 .projects .container .portfolio,
-.projects .container .satSim{
+.projects .container .satSim,
+.projects .container .satelliteSystem{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -376,6 +383,7 @@ body{
 .projects .container .tiktok:hover,
 .projects .container .satSim:hover,
 .projects .container .portfolio:hover,
+.projects .container .satelliteSystem:hover,
 .projects .container .jobFinder:hover {
     transform: scale(1.01);
 }

@@ -168,6 +168,38 @@ export default function Projects () {
               <a href="#profile" className="more">Trial</a>
             </div>
 
+            <div className="satelliteSystem">
+              <div className="img-container">
+                <img src="https://i.pinimg.com/736x/ac/7a/4c/ac7a4cbd187142b6654ec2de96c6a87d.jpg" alt="coming-soon"/>
+              </div>
+              <div className="stack-used">
+                <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
+                <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="logo" />
+                <img height="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png?20170919082558" alt="logo" />
+                <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433" alt="logo" />
+                <div className="flask">
+                  <img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/460px-Flask_logo.svg.png" alt="logo"/>
+                </div>
+                <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/600px-Python_logo_01.svg.png?20210503135843" alt="logo" />
+                <img height="30px" src="https://cdn-icons-png.flaticon.com/128/15466/15466088.png" alt="logo" />
+                
+              </div>
+              <div className="details">
+                <h4>Satellite Monitoring System (WIP)</h4>
+                <div className="pa">
+                  <p>Present</p>
+                  <a href="https://github.com/Edmund-Kiama/porfolio" target="_blank">
+                      <img 
+                      src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
+                      alt="GitHub"
+                      width="20px"
+                      />
+                  </a>
+                </div>
+              </div>
+              {/* <a href="#profile" className="more">Trial</a> */}
+            </div>
+
         </div>
       }
       </div>

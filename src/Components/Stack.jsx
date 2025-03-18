@@ -40,6 +40,12 @@ export default function Stack () {
             <p>mySQL</p>
           </li>
           <li>
+            <div className="flask">
+              <img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/460px-Flask_logo.svg.png" alt="logo"/>
+            </div>
+            <p>Flask</p>
+          </li>
+          <li>
             <img height="30px" src="https://cdn-icons-png.flaticon.com/128/15466/15466163.png" alt="logo" />
             <p>Git</p>
           </li>
@@ -52,7 +58,7 @@ export default function Stack () {
             <p>GitHub</p>
           </li>
           <li>
-            <img height="30px" src="https://cdn-icons-png.flaticon.com/128/518/518713.png" alt="logo" />
+            <img height="30px" src="https://icon.icepanel.io/Technology/png-shadow-512/Linux.png" alt="logo" />
             <p>Linux</p>
           </li>
           <li>
