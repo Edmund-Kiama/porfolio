@@ -188,7 +188,7 @@ export default function Projects () {
                 <h4>Satellite Monitoring System (WIP)</h4>
                 <div className="pa">
                   <p>Present</p>
-                  <a href="https://github.com/Edmund-Kiama/porfolio" target="_blank">
+                  <a href="https://github.com/Edmund-Kiama/satellite-monitoring-system" target="_blank">
                       <img 
                       src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png"
                       alt="GitHub"

@@ -106,7 +106,10 @@ portfolio/
 ### 6. **Portfolio Website**
 - **Tech Used:** HTML, CSS, Javascript, React, Docker
 - **GitHub:** [Repo](https://github.com/Edmund-Kiama/porfolio)
-
+  
+### 7. **Satellite Monitoring System**
+   - **Tech Used** HTML, CSS ,Javascript, Vue, Flask, Flask-Alchemy, Python, Docker
+   - **GitHub** [Repo](https://github.com/Edmund-Kiama/satellite-monitoring-system)
 ## Contact
 
 - **Name:** Edmund Kiama
