@@ -169,7 +169,7 @@ export default function Projects () {
 
             <div className="satelliteSystem">
               <div className="img-container">
-                <img src="https://i.pinimg.com/736x/ac/7a/4c/ac7a4cbd187142b6654ec2de96c6a87d.jpg" alt="coming-soon"/>
+                <img src="https://i.pinimg.com/736x/9c/4d/a0/9c4da0027d234537f5f027d0d743dddd.jpg" alt="sat-sys"/>
               </div>
               <div className="stack-used">
                 <img height="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/640px-CSS.3.svg.png" alt="logo" />
