@@ -5,7 +5,7 @@ export default function Projects () {
   const[shown, setShown] = useState(false)
 
     return (
-    <div className="projects">
+    <div className="projects"> 
         <h2>Projects</h2>
 
       { shown ?  <WS4Project setShown={setShown}/>
@@ -58,7 +58,7 @@ export default function Projects () {
                 </div>
               </div>
               <a className="more" id="tiktok-hide" href="https://tiktok-mini-clone.vercel.app/" target="_blank">Trial</a>
-              <p className="built-for-desktop">Please use Desktop for Trial</p>
+              {/* <p className="built-for-desktop">Please use Desktop for Trial</p> */}
             </div>
 
             <div className="tv-show">
@@ -86,7 +86,7 @@ export default function Projects () {
                 </div>
               </div>
               <a href="https://rick-and-morty-using-api.vercel.app/" id="ricknmorty-hide" target="_blank" className="more">Trial</a>
-              <p className="built-for-desktop">Please use Desktop for Trial</p>
+              {/* <p className="built-for-desktop">Please use Desktop for Trial</p> */}
             </div>
 
             <div className="jobFinder">
@@ -114,7 +114,7 @@ export default function Projects () {
                 </div>
               </div>
               <a href="https://job-finder-ia23.vercel.app/" target="_blank" id="job-finder-hide" className="more">Trial</a>
-              <p className="built-for-desktop">Please use Desktop for Trial</p>
+              {/* <p className="built-for-desktop">Please use Desktop for Trial</p> */}
             </div>
 
             <div className="satSim">
@@ -138,7 +138,6 @@ export default function Projects () {
                   </a>
                 </div>
               </div>
-              <p>Built for Terminal</p>
             </div>
 
             <div className="portfolio">

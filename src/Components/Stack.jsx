@@ -66,7 +66,7 @@ export default function Stack () {
             <p>SolidWorks</p>
           </li>
           <li>
-            <img height="20px" src="https://ultimaker.com/wp-content/themes/ultimaker/media/UltiMaker_Logo.svg" alt="logo"/>
+            <img height="20px" src="https://ultimaker.com/wp-content/themes/ultimaker/media/UltiMaker_Logo.svg" alt="logo" className="ultimaker"/>
             <p>Ultimaker Cura</p>
           </li>
           

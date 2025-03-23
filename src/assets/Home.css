@@ -6,14 +6,74 @@
     #tiktok-hide, #shopping-hide, #ricknmorty-hide, #cart-hide, #job-finder-hide {
         display: none;
     }
-}
-@media (min-width: 768px){
+    *{
+        font-size: 13px;
+    }
     .built-for-desktop {
         display: none;
+    }
+    .dev-stack .ul-1 li {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 0em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+        padding: 0.5em; 
+        color:#cccccc;
+        background-color: #3b3b3b;
+        border-radius: 5px;
+        width: 9.5em;
+        border:1px solid #1f1f1f;
+        transition: 0.2s;
+    }
+    .dev-stack .ul-1 li .ultimaker {
+        height: 15px;
     }
 }
 html {
     scroll-behavior: smooth;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+.profile-pic {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    padding: 2px;
+    background: linear-gradient(45deg, red, blue, green, yellow);
+    /* background-size: 400% 400%; */
+    animation: borderAnimation 7.5s infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes borderAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid white; 
+}
+.txt, .dev-stack h2, .dev-stack li, .education h2, .Moringa, .TUK, .certificates h2, .harvard, .simplilearn, .math-works,
+.experience h2, .freelance, .mech, .projects h2, .ws4, .tiktok, .tv-show, .jobFinder, .satSim, .portfolio, .satelliteSystem{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 body{
     background-color: #1f1f1f;
@@ -487,4 +547,23 @@ body{
 .projects .back {
     margin-bottom:1em;
 }
-
+.footer {
+    background-color: #3b3b3b;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    border-top: 1px solid #777777;
+    border-radius: 0.3em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 2em;
+    width: 12em;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 1em;
+}
+.footer a {
+    margin: 0.2em;
+}

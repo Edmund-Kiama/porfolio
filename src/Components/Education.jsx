@@ -1,7 +1,7 @@
 export default function EducationAndCertificates () {
     return (
         <div className="ed-cert">
-      <div className="education">
+      <div className="education">      
         <h2>Education</h2>
         <div className="sep">
         <div className="Moringa">
