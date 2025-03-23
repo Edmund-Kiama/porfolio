@@ -50,8 +50,8 @@ html {
     border-radius: 50%;
     padding: 2px;
     background: linear-gradient(45deg, red, blue, green, yellow);
-    /* background-size: 400% 400%; */
-    animation: borderAnimation 7.5s infinite linear;
+    background-size: 400% 400%;
+    animation: borderAnimation 3.5s infinite linear;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,9 +71,13 @@ html {
 }
 .txt, .dev-stack h2, .dev-stack li, .education h2, .Moringa, .TUK, .certificates h2, .harvard, .simplilearn, .math-works,
 .experience h2, .freelance, .mech, .projects h2, .ws4, .tiktok, .tv-show, .jobFinder, .satSim, .portfolio, .satelliteSystem{
-    animation: appear linear;
+    animation: appear  0.6s ease-out forwards;
     animation-timeline: view();
-    animation-range: entry 0% cover 20%;
+    animation-range: entry 0% cover 15%;
+    opacity: 0;
+}
+.done{
+    animation-play-state: paused !important;
 }
 body{
     background-color: #1f1f1f;
