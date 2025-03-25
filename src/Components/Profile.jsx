@@ -13,7 +13,7 @@ export default function Profile () {
 
             <div className="contacts">
                 
-                <a href="edkiamaCV.pdf" download="edkiamaCV.pdf">
+                <a href="EdmundKiama CV.pdf" download="EdmundKiama CV.pdf">
                     <img 
                     src="https://cdn-icons-png.flaticon.com/128/909/909212.png"
                     alt="my-Cv"
